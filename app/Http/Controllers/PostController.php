@@ -41,6 +41,6 @@ class PostController extends Controller
 
     public function show(Post $id)
     {
-    	return view('view',compact('id','a'));
+    	return view('view',compact('id'));
     }
 }
